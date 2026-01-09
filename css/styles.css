@@ -65,3 +65,25 @@ nav .nav-button:hover {
     align-items: center;
     margin: 0 auto;
 }
+
+.solution .solution-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.solution .solution-container .solution-image{
+    width: 50%;
+    height: auto;
+}
+.solution .solution-container .solution-content {
+    height: auto;
+    margin-top: 100px;
+}
+.solution .solution-labels {
+    flex-wrap: wrap;
+}
+
+body {
+  font-family: 'Font-Awesome', sans-serif;
+}
