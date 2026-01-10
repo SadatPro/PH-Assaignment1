@@ -176,6 +176,9 @@ body {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    background-color: antiquewhite;
+    padding: 40px 20px;
+    margin: 20px ;
 }
 
 .bottom-container .container .btn-green {
@@ -214,4 +217,12 @@ footer .container .footer-content {
 .footer-content .social-links p {
     color: white;
     margin: 0;
+}
+
+footer .container .copyright {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
