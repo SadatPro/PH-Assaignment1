@@ -101,6 +101,14 @@ nav .nav-button:hover {
     text-decoration: none;
     display: inline-block;
 }
+.hero .hero-content .hero-buttons .btn-green:hover {
+    background-color: rgb(61, 248, 139);
+    color: black;
+}
+.hero .hero-content .hero-buttons .btn-outline:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
 .problems .container .cards {
     display: flex;
     justify-content: center;
@@ -163,4 +171,47 @@ nav .nav-button:hover {
 
 body {
   font-family: 'Font-Awesome', sans-serif;
+}
+.bottom-container .container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bottom-container .container .btn-green {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: rgb(2, 169, 69);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+footer {
+    background-color: #0b406b;
+    padding: 20px 0;
+}
+
+footer .container .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-content .social-links {
+    display: flex;
+    align-items: center;
+}
+.footer-content .social-links a {
+    color: white;
+    margin-left: 15px;
+}
+.footer-content .social-links p {
+    color: white;
+    margin: 0;
 }
