@@ -1,6 +1,5 @@
 nav {
     padding: 10px 5px;
-    text-decoration: none;
     display: flex;
     gap: 25%;
 
@@ -8,14 +7,23 @@ nav {
 }
 nav ul {
     list-style-type: none;
-    text-decoration: none;
     margin: 0;
     padding: 0;
     display: flex;
     gap: 50px;
     padding: 10px;
     justify-content: center;
+    text-decoration: none;
    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover {
+   color: blue;
+   background-color: lightgray;
 }
 nav .nav-button {
     border: none;
@@ -63,6 +71,35 @@ nav .nav-button:hover {
     color: white;
     font-size: 18px;
     margin: 0;
+}
+.hero .hero-content .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.hero .hero-content .hero-buttons .btn-green {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: rgb(30, 84, 15);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+.hero .hero-content .hero-buttons .btn-outline {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
 }
 .problems .container .cards {
     display: flex;
@@ -112,6 +149,16 @@ nav .nav-button:hover {
 }
 .solution .solution-labels {
     flex-wrap: wrap;
+}
+.solution .solution-content ul li {
+    margin-bottom: 10px;
+    list-style-type: none;
+
+}
+.solution .solution-content ul li i {
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
 }
 
 body {
