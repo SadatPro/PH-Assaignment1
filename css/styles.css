@@ -29,11 +29,41 @@ nav .nav-button:hover {
     background-color: rgb(61, 248, 139);
     color: black;
 }
-.hero .hero-content img {
+.hero {
     width: 100%;
     height: auto;
+    text-align: center;
+    position: relative;
 }
-
+.hero .hero-content  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  max-width: 800px;
+  text-align: center;
+}
+.hero .hero-content .hero-badge {
+    background-color: white;
+    color: #68d391;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.hero .hero-content h1 {
+    color: rgb(67, 225, 61);
+    font-size: 48px;
+    margin: 0;
+}
+.hero .hero-content p {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
 .problems .container .cards {
     display: flex;
     justify-content: center;
